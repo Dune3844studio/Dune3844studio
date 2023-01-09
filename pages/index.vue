@@ -1,106 +1,51 @@
 <template>
+ 
 
 
 
 
-
-<div class=" py-6 sm:py-8 lg:py-12">
-  <div class="max-w-screen-2xl h-64 px-4 md:px-8 mx-auto">
+ <div class="bg-white py-6 sm:py-8 lg:py-12">
+  <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
     <!-- text - start -->
     <div class="mb-10 md:mb-16">
+      <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">Gallery</h2>
 
-      <p class="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
-
-      </p>
-
-      <h2 class="text-gray-800 text-xs font-bold text-right mb-4 md:mb-6">
-      </h2>
-
+      <p class="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
     </div>
     <!-- text - end -->
 
-  </div>
-</div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
+      <!-- image - start -->
+      <a href="#" class="group h-48 md:h-96 flex justify-end items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+        <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
 
+        <div class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
 
+        <span class="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">VR</span>
+      </a>
+      <!-- image - end -->
 
-<div class="text-pink-500">
+      <!-- image - start -->
+      <a href="#" class="group h-48 md:h-96 flex justify-end items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
 
-        <div class="py-6 sm:py-8 lg:py-12">
-  <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
-    <div class="flex justify-between items-end gap-4 mb-6">
-      <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold">
-        What
-        We<img src="@/static/logo/logo_bl2.svg" alt="">
-        do
-      </h2>
+        <div class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
 
-      <a href="#" class="inline-block bg-white hover:bg-gray-100 active:bg-gray-200 focus-visible:ring ring-indigo-300 border text-gray-500 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 md:px-8 py-2 md:py-3">Show more</a>
-    </div>
+        <span class="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">Retro</span>
+      </a>
+      <!-- image - end -->
 
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 md:gap-x-6 gap-y-6">
-      <!-- product - start -->
-      <div>
-        <a href="#" class="group h-96 block bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-2 lg:mb-3">
-          <img src="@/static/collection/1.jpg" loading="lazy" alt="Photo by Austin Wade" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
-        </a>
+      <!-- image - start -->
+      <a href="#" class="group h-48 md:h-96 flex justify-end items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+        <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
 
-        <div class="flex flex-col">
-          <span class="text-gray-500">everything is show biz!</span>
-          <a href="#" class="text-gray-800 hover:text-gray-500 text-lg lg:text-xl font-bold transition duration-100">テレビ番組制作</a>
-        </div>
-      </div>
-      <!-- product - end -->
+        <div class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
 
-      <!-- product - start -->
-      <div>
-        <a href="#" class="group h-96 block bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-2 lg:mb-3">
-          <img src="@/static/collection/2.jpg" loading="lazy" alt="Photo by engin akyurt" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
-        </a>
-
-        <div class="flex flex-col">
-          <span class="text-gray-500">on-air everywhere</span>
-          <a href="#" class="text-gray-800 hover:text-gray-500 text-lg lg:text-xl font-bold transition duration-100">映像配信</a>
-        </div>
-      </div>
-      <!-- product - end -->
-
-      <!-- product - start -->
-      <div>
-        <a href="#" class="group h-96 block bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-2 lg:mb-3">
-          <img src="@/static/collection/3.jpg" loading="lazy" alt="Photo by Austin Wade" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
-        </a>
-
-        <div class="flex flex-col">
-          <span class="text-gray-500">The universe is expanding</span>
-          <a href="#" class="text-gray-800 hover:text-gray-500 text-lg lg:text-xl font-bold transition duration-100">写真撮影</a>
-        </div>
-      </div>
-      <!-- product - end -->
-
-      <!-- product - start -->
-      <div>
-        <a href="#" class="group h-96 block bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-2 lg:mb-3">
-          <img src="https://images.unsplash.com/photo-1560269999-cef6ebd23ad3?auto=format&q=75&fit=crop&w=600&h=700" loading="lazy" alt="Photo by Austin Wade" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
-        </a>
-
-        <div class="flex flex-col">
-          <span class="text-gray-500">and more!</span>
-          <a href="#" class="text-gray-800 hover:text-gray-500 text-lg lg:text-xl font-bold transition duration-100">...AND MORE!</a>
-        </div>
-      </div>
-      <!-- product - end -->
+        <span class="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">Tech</span>
+      </a>
+      <!-- image - end -->
     </div>
   </div>
-</div>
-
-
-
-
-
-
-
-
 </div>
 </template>
   
