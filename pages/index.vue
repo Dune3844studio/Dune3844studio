@@ -8,12 +8,12 @@
    <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
      <!-- text - start -->
     
-     <header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+     <div class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
  
    <video autoplay loop controls class="absolute z-10 w-full min-w-full min-h-full max-w-none">
      <source src="@/static/movie/政策決定PR0109_2.mp4" type="video/mp4" />Your browser does not support the video tag.
    </video>
- </header>
+  </div>
  <div class="max-w-lg m-auto">
    <p class="mb-4">
      うんこ ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat a
