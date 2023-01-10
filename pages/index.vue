@@ -11,7 +11,7 @@
      <div class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
  
    <video autoplay loop controls class="absolute z-10 w-full min-w-full min-h-full max-w-none">
-     <source src="@/static/movie/政策決定PR0109_2.mp4" type="video/mp4" />Your browser does not support the video tag.
+     <source src="@/static/movie/PR0109_2.mp4" type="video/mp4" />Your browser does not support the video tag.
    </video>
   </div>
  <div class="max-w-lg m-auto">
